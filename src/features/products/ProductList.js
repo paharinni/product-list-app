@@ -3,7 +3,6 @@ import { useSelector, useDispatch } from 'react-redux';
 import { fetchProducts } from './productsSlice';
 import Product from './Product';
 import AddProductModal from './AddProductModal';
-import { Link } from 'react-router-dom';
 
 const ProductList = () => {
   const dispatch = useDispatch();
